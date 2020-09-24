@@ -132,7 +132,7 @@ Pipe your tibble into `ggplot()` to make a histogram with `head` mapped to the x
 
 ```
 
-```{r coin6-hint, eval=FALSE}
+```{r coin7-hint, eval=FALSE}
 tibble(head = rbinom (n = 100, prob = 0.5, size = 1)) %>%
   ggplot(...)
 ```
@@ -332,6 +332,7 @@ tibble(sum = sample(x = 1:6, size = 10, replace = TRUE) +
 ###
 
 Finally, finish your graph by changing its theme to `theme_classic()`. In addition, use `labs()` to change the `title` of the graph to "Empirical Probability Distribution," the `subtitle` to "Sum from Rolling Two Dice Ten Times," and the `x`-axis label to "Sum of Two Dice."
+Reminder: Cannot copy and paste titles directly from directions or an error will occur!
 
 ```{r dice8, exercise = TRUE, exercise.lines = 6}
 

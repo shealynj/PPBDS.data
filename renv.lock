@@ -485,10 +485,10 @@
     },
     "knitr": {
       "Package": "knitr",
-      "Version": "1.30",
+      "Version": "1.29",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "eed7ee0d02eee88d53881cdc92457c62"
+      "Hash": "e5f4c41c17df8cdf7b0df12117c0d99a"
     },
     "labeling": {
       "Package": "labeling",
@@ -627,8 +627,8 @@
       "Package": "pkgdown",
       "Version": "1.5.1.9000",
       "Source": "GitHub",
-      "Remotes": "r-lib/downlit, rstudio/rmarkdown",
       "RemoteType": "github",
+      "Remotes": "r-lib/downlit, rstudio/rmarkdown",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "pkgdown",
       "RemoteUsername": "r-lib",
@@ -904,10 +904,10 @@
     },
     "tinytex": {
       "Package": "tinytex",
-      "Version": "0.26",
+      "Version": "0.25",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "db6477efcfbffcd9b3758c3c2882cf58"
+      "Hash": "a4b9662282097d1033c60420dcb83350"
     },
     "usethis": {
       "Package": "usethis",
