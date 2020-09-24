@@ -537,13 +537,6 @@ ggplot(two_dice_rolls, mapping = aes(x = sum, y = ..count.. / sum(..count..))) +
 
 
 
-
-
-
-
-
-
-
 ## Two models
 ###
 
