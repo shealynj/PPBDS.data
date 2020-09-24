@@ -57,7 +57,7 @@ question_text("How many times must you conduct the experiment to create a mathem
               message = "A mathematical distrubition requires no experimental data because it relies solely on mathematical formulas. Thus, you don't need to conduct the experiment at all before creating a mathetmatical distribution.")
 ```
 
-<!-- Sj: This one is not explained in the textbook -->
+<!-- Sj: This one is not explained in the textbook, maybe delete this q -->
 
 ###
 
@@ -178,6 +178,7 @@ tibble(head = rbinom(n = 100, size = 1, prob = 0.5)) %>%
 ###
 
 Finally, use `labs()` to set the following labels: the graph's `title` to "Empirical Probability Distribution," the graph's `subtitle` to "Flipping A Coin One Hundred Times," and the graph's `x`-axis label to "Outcome."
+Note: You cannot copy and paste the titles as they are written here as code there will be an error!
 
 You have now made a very good copy of the graph in the textbook---great work!
 
