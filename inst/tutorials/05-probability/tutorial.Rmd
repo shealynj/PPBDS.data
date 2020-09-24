@@ -57,6 +57,8 @@ question_text("How many times must you conduct the experiment to create a mathem
               message = "A mathematical distrubition requires no experimental data because it relies solely on mathematical formulas. Thus, you don't need to conduct the experiment at all before creating a mathetmatical distribution.")
 ```
 
+<!-- Sj: This one is not explained in the textbook -->
+
 ###
 
 The simplest way to visualize probabilities is with a coin flip.
