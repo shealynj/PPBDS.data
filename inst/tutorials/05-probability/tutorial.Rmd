@@ -110,6 +110,8 @@ Write an `rbinom()` statement to simulate the flipping of a coin that lands on h
 Remember that n is the number of observations and size is the number of trials.
 ```
 
+<!-- SJ: The answer that shoots out is for these code chunks is confusing to interpret, maybe address it in the book? -->
+
 ###
 
 Use `tibble()` to create a new tibble. The tibble should have one column, `head`, equal to a binomial distribution with 100 observations of a fair coin (`prob = 0.5`) and 1 trial (i.e. 1 flip) per observation.
@@ -128,6 +130,11 @@ Pipe your tibble into `ggplot()` to make a histogram with `head` mapped to the x
 
 ```{r coin7, exercise = TRUE}
 
+```
+
+```{r coin6-hint, eval=FALSE}
+tibble(head = rbinom (n = 100, prob = 0.5, size = 1)) %>%
+  ggplot(...)
 ```
 
 ###
